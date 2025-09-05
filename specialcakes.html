@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+      <!-- Top Banner -->
+    <div class="navtop-banner">
+        Welcome To Our Shop. Kindly Note, Currently We Delivery To All Location!. Thank You For Your Love And Support.
+     </div>
+
+    <!-- Main Header -->
+    <header class="navmain-header">
+        <div class="navheader-container">
+            <!-- Logo Section -->
+            <div class="logo-section">
+                <div class="logo">
+                    <img src="images/nav logo.png">
+                </div>
+               
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="specialcakes.html" class="nav-link">SPECIAL CAKES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="snacks.html" class="nav-link">SNACKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">CONTACT US</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Right Section -->
+            <div class="navheader-right">
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search">
+                    <button class="search-btn">
+                       <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+
+                <!-- User Icon -->
+                <div class="user-icon">
+                <a href="login.html" style="text-decoration: none; color:#fff;">    <i class="fa-solid fa-user"></i></a>
+                </div>
+
+                <!-- Cart Icon -->
+                <div class="cart-icon">
+                  <a href="cart.html" style="text-decoration: none; color: #895129;">    <i class="fa-solid fa-cart-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+     <div class="specialty-cakes-main-wrapper">
+        <!-- Sidebar -->
+        <div class="cake-filter-sidebar-panel">
+            <div class="sidebar-filter-section">
+                <h3 class="filter-section-heading">Special Cakes</h3>
+                <ul class="cake-category-list">
+                    <li class="cake-category-item active" data-category="birthday">Birthday Cake</li>
+                    <li class="cake-category-item" data-category="anniversary">Anniversary Cake</li>
+                    <li class="cake-category-item" data-category="kids">Kids Designer Cake</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-filter-section">
+                <h3 class="filter-section-heading">Time Slot</h3>
+                <div class="delivery-options-wrapper">
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="sameDay">
+                        <label for="sameDay" class="delivery-option-label">Same Day Delivery</label>
+                    </div>
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="threeHours1">
+                        <label for="threeHours1" class="delivery-option-label">3 Hours Delivery</label>
+                    </div>
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="threeHours2">
+                        <label for="threeHours2" class="delivery-option-label">3 Hours Delivery</label>
+                    </div>
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="nextDay">
+                        <label for="nextDay" class="delivery-option-label">Next Day Delivery</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar-filter-section">
+                <h3 class="filter-section-heading">Flavours</h3>
+                <div class="delivery-options-wrapper">
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="blackforest">
+                        <label for="blackforest" class="delivery-option-label">Blackforest</label>
+                    </div>
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="butterscotch">
+                        <label for="butterscotch" class="delivery-option-label">Butterscotch</label>
+                    </div>
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="blueberry">
+                        <label for="blueberry" class="delivery-option-label">Blueberry</label>
+                    </div>
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="chocoTruffle">
+                        <label for="chocoTruffle" class="delivery-option-label">Choco Truffle</label>
+                    </div>
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="pineapple">
+                        <label for="pineapple" class="delivery-option-label">Pineapple</label>
+                    </div>
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="vanilla">
+                        <label for="vanilla" class="delivery-option-label">Vanilla</label>
+                    </div>
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="strawberry">
+                        <label for="strawberry" class="delivery-option-label">Strawberry</label>
+                    </div>
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="whiteForest">
+                        <label for="whiteForest" class="delivery-option-label">White Forest</label>
+                    </div>
+                    <div class="checkbox-option-container">
+                        <input type="checkbox" class="custom-delivery-checkbox" id="blackForest">
+                        <label for="blackForest" class="delivery-option-label">Black Forest</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="cakes-display-content-area">
+            <div class="specialty-cakes-page-header">
+                <h1 class="main-page-title-text">SPECIALITY CAKES</h1>
+                <div class="title-decorative-divider"></div>
+            </div>
+            
+            <!-- Hero Section -->
+            <div class="hero-cakes-showcase-grid">
+                <div class="hero-cake-display-card">
+                    <img src="images/bd cake.jpg" alt="Happy Birthday Cake" class="hero-cake-featured-image">
+                    <div class="cake-overlay">Happy Birthday</div>
+                </div>
+                <div class="hero-cake-display-card">
+                    <img src="images/anni cake.jpg" alt="Anniversary Cake" class="hero-cake-featured-image">
+                    <div class="cake-overlay">Happy Anniversary</div>
+                </div>
+                <div class="hero-cake-display-card">
+                    <img src="images/car cake.jpg" alt="Kids Designer Cake" class="hero-cake-featured-image">
+                    <div class="cake-overlay">Kids Designer</div>
+                </div>
+            </div>
+            
+            <!-- Birthday Cakes Section -->
+            <div class="birthday-section-wrapper">
+                <h2 class="birthday-cakes-section-title">Birthday Cake</h2>
+                <div class="birthday-cakes-product-grid">
+                    <div class="individual-birthday-cake-card">
+                        <img src="images/bd cake1.jpg" alt="White Forest Cake" class="birthday-cake-product-image">
+                        <div class="cake-product-info-section">
+                            <h3 class="cake-product-name-title">White Forest</h3>
+                            <p class="cake-pricing-display-text">Rs.750</p>
+                            <button class="product-add-to-cart-button" onclick="showCartSuccessModal('White Forest')">Add Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="individual-birthday-cake-card">
+                        <img src="images/bd cake2.jpg" alt="Tea Cake" class="birthday-cake-product-image">
+                        <div class="cake-product-info-section">
+                            <h3 class="cake-product-name-title">Tea Cake</h3>
+                            <p class="cake-pricing-display-text">Rs.590</p>
+                            <button class="product-add-to-cart-button" onclick="showCartSuccessModal('Tea Cake')">Add Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="individual-birthday-cake-card">
+                        <img src="images/bd cake3.jpg" alt="Brownies Cake" class="birthday-cake-product-image">
+                        <div class="cake-product-info-section">
+                            <h3 class="cake-product-name-title">Brownies</h3>
+                            <p class="cake-pricing-display-text">Rs.850</p>
+                            <button class="product-add-to-cart-button" onclick="showCartSuccessModal('Brownies')">Add Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="individual-birthday-cake-card">
+                        <img src="images/CAKE F1.jpg" alt="Tea Cake" class="birthday-cake-product-image">
+                        <div class="cake-product-info-section">
+                            <h3 class="cake-product-name-title">Tea Cake</h3>
+                            <p class="cake-pricing-display-text">Rs.590</p>
+                            <button class="product-add-to-cart-button" onclick="showCartSuccessModal('Tea Cake')">Add Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="individual-birthday-cake-card">
+                        <img src="images/CAKE F4.jpg" alt="Tea Cake" class="birthday-cake-product-image">
+                        <div class="cake-product-info-section">
+                            <h3 class="cake-product-name-title">Tea Cake</h3>
+                            <p class="cake-pricing-display-text">Rs.590</p>
+                            <button class="product-add-to-cart-button" onclick="showCartSuccessModal('Tea Cake')">Add Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="individual-birthday-cake-card">
+                        <img src="images/CAKE F5.jpg" alt="Tea Cake" class="birthday-cake-product-image">
+                        <div class="cake-product-info-section">
+                            <h3 class="cake-product-name-title">Tea Cake</h3>
+                            <p class="cake-pricing-display-text">Rs.590</p>
+                            <button class="product-add-to-cart-button" onclick="showCartSuccessModal('Tea Cake')">Add Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Cart Success -->
+    <div class="cake-cart-success-modal-overlay" id="cakeCartModalOverlayElement">
+        <div class="cake-cart-confirmation-popup-box">
+            <div class="cart-success-icon-display"></div>
+            <div class="cart-confirmation-message-text" id="cartMessageText">Your Item added to cart</div>
+            <button class="modal-close-action-button" onclick="hideCartSuccessModal()">OK</button>
+        </div>
+    </div>
+
+
+      <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="brand-section">
+                    <div class="logo-container">
+                        <img src="images/footer logo.png">
+                    </div>
+                    
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="section-title">ONLINE SHOPPING</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">products</a></li>
+                        <li><a href="about.html">about us</a></li>
+                        <li><a href="specialcakes.html">special cake</a></li>
+                        <li><a href="snacks.html">Snacks</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="section-title">USEFUL LINKS</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">T&C</a></li>
+                        <li><a href="#">Booking</a></li>
+                        <li><a href="#">Cancellation</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Return / Refunds</a></li>
+                        <li><a href="#">Payments</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="section-title">CONTACT US</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-text">
+                                Manek Ratna<br>
+                                3rd Floor, Block No. 304,<br>
+                                Ryna Arcade, Zakeria Road, Malad (West),<br>
+                                Maharashtra, Mumbai, Pincode : 400064
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                               <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-text">+91 8879438031</div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                               <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">info@cakeshop.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright-text">
+                    © 2021-2025 www.Cakeshop.Com All Rights Reserved.
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon social-facebook">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon social-instagram">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon social-whatsapp">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+         let currentAddedItem = '';
+
+        function showCartSuccessModal(itemName = '') {
+            currentAddedItem = itemName;
+            const modalOverlay = document.getElementById('cakeCartModalOverlayElement');
+            const messageText = document.getElementById('cartMessageText');
+            
+            if (itemName) {
+                messageText.textContent = `${itemName} added to cart successfully!`;
+            } else {
+                messageText.textContent = 'Your Item added to cart';
+            }
+            
+            modalOverlay.style.display = 'flex';
+            
+            // Auto hide after 4 seconds
+            setTimeout(function() {
+                hideCartSuccessModal();
+            }, 4000);
+        }
+
+        function hideCartSuccessModal() {
+            const modalOverlay = document.getElementById('cakeCartModalOverlayElement');
+            modalOverlay.style.display = 'none';
+        }
+
+        // Close modal when clicking outside the popup box
+        document.getElementById('cakeCartModalOverlayElement').addEventListener('click', function(event) {
+            if (event.target === this) {
+                hideCartSuccessModal();
+            }
+        });
+
+        // Add interactive effects to buttons
+        document.querySelectorAll('.product-add-to-cart-button').forEach(button => {
+            button.addEventListener('mouseenter', function() {
+                this.style.boxShadow = '0 8px 25px rgba(125, 94, 58, 0.5)';
+            });
+            
+            button.addEventListener('mouseleave', function() {
+                this.style.boxShadow = 'none';
+            });
+        });
+
+        // Category selection functionality
+        document.querySelectorAll('.cake-category-item').forEach(item => {
+            item.addEventListener('click', function() {
+                // Remove active class from all items
+                document.querySelectorAll('.cake-category-item').forEach(i => i.classList.remove('active'));
+                // Add active class to clicked item
+                this.classList.add('active');
+                
+                // Here you can add logic to filter cakes based on category
+                const category = this.getAttribute('data-category');
+                console.log('Selected category:', category);
+            });
+        });
+
+        // Filter functionality
+        document.querySelectorAll('.custom-delivery-checkbox').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                console.log('Filter changed:', this.id, this.checked);
+                // Add your filter logic here
+                updateFilters();
+            });
+        });
+
+        function updateFilters() {
+            const selectedFilters = {
+                timeSlot: [],
+                flavours: []
+            };
+
+            // Collect time slot filters
+            ['sameDay', 'threeHours1', 'threeHours2', 'nextDay'].forEach(id => {
+                const checkbox = document.getElementById(id);
+                if (checkbox && checkbox.checked) {
+                    selectedFilters.timeSlot.push(id);
+                }
+            });
+
+            // Collect flavour filters
+            ['blackforest', 'butterscotch', 'blueberry', 'chocoTruffle', 'pineapple', 'vanilla', 'strawberry', 'whiteForest', 'blackForest'].forEach(id => {
+                const checkbox = document.getElementById(id);
+                if (checkbox && checkbox.checked) {
+                    selectedFilters.flavours.push(id);
+                }
+            });
+
+            console.log('Applied filters:', selectedFilters);
+            // Here you would implement the actual filtering logic
+        }
+
+        // Add smooth scrolling effect
+        document.querySelectorAll('.cake-category-item').forEach(item => {
+            item.addEventListener('click', function() {
+                document.querySelector('.birthday-section-wrapper').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add loading animation to buttons
+        document.querySelectorAll('.product-add-to-cart-button').forEach(button => {
+            button.addEventListener('click', function() {
+                const originalText = this.textContent;
+                this.textContent = 'Adding...';
+                this.disabled = true;
+                
+                setTimeout(() => {
+                    this.textContent = originalText;
+                    this.disabled = false;
+                }, 1500);
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
